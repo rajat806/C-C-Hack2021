@@ -14,14 +14,14 @@ void insertionSort(int *array, int size) {
          array[j] = array[j-1];
          j--;
       }
-      array[j] = key;   //insert in right place
+      array[j] = key;   
    }
 }
 int main() {
    int n;
    cout << "Length of array : ";
    cin >> n;
-   int arr[n];    //create an array with given number of elements
+   int arr[n];    
    
    for(int i = 0; i<n; i++) {
    		cout << "Enter elements " <<(i+1)<<" : ";
