@@ -1,3 +1,6 @@
+// time complexity -o(nlogn)
+//This is the sorting algorithm
+
 #include<iostream>
 #include<cstdlib>
 
